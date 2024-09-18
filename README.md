@@ -18,3 +18,10 @@ To run this project locally, you'll need the following installed:
 - PHP 8.0+
 - Composer
 - MySQL
+
+Installation
+1- Clone the repository:
+```bash
+git clone https://github.com/username/reading-app-backend.git
+cd reading-app-backend
+```
