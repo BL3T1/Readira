@@ -19,9 +19,35 @@ To run this project locally, you'll need the following installed:
 - Composer
 - MySQL
 
-Installation
+## Installation
+
 1- Clone the repository:
-```bash
+``` bash
 git clone https://github.com/username/reading-app-backend.git
 cd reading-app-backend
 ```
+
+2- Install dependencies: Use Composer to install the necessary dependencies:
+```
+composer install
+```
+
+3- Run database migrations:
+```
+php artisan migrate
+```
+
+4- Seed the database (optional): If you have seeders available to populate the database with initial data, run:
+```
+php artisan db:seed
+```
+
+5- Start the development server:
+```
+php artisan serve
+```
+
+The application will now be running at http://localhost:8000.
+
+## License
+This project is licensed under the MIT License.
