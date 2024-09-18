@@ -12,3 +12,9 @@ This project is the backend service for a Reading Application that allows users 
 - Framework: Laravel (PHP)
 - Database: MySQL (or any relational DB)
 - Authentication: JWT (JSON Web Token)
+
+## Prerequisites
+To run this project locally, you'll need the following installed:
+- PHP 8.0+
+- Composer
+- MySQL
